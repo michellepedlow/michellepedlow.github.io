@@ -1,0 +1,45 @@
+*	{
+	padding: 0;
+	margin: 0;
+}
+ #grad {
+  	background: linear-gradient(to bottom, transparent, #93F8FF)
+  	no-repeat bottom;
+  	background-size: 100%;
+}
+body
+h3, p, ul {
+	color: #000;
+	font-size: 14px; 
+	font-weight: normal;
+}
+h1 {
+	color: blue;
+	font-size: 200%
+	font-weight: normal;
+}
+body {
+  	text-align: left;
+  	background: url("images/glass-ball.jpg")>;
+  	background-size: cover;
+  	color: #42E5AC;
+  	font-family: "Avenir Light", Helvetica;
+}
+ul {
+  	color: #000;
+  	font-family: "Avenir Light", Helvetica;
+  	font-size: 14px
+}
+hr {
+  	width: 200px;
+}
+p {
+  	font-size: 14px;
+}
+#slogan {
+	font-style: italic;
+	color: #BD0B8C;
+}
+#main-body {
+	color: #035754;
+}
