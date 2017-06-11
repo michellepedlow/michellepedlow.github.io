@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*	{
+	padding: 0;
+	margin: 0.5em;
+}
+body { 
+	background-image: url("images/glass-ball-water.jpg");
+  	background-size: cover; 
+  	text-align: center;
+  	color: #42E5AC;
+  	font-family: 'Avenir', Helvetica;
+}
+body
+h2, p {
+	font-family: 'Comfortaa', Helvetica;
+	color: #000;
+	font-size: 25px; 
+	font-weight: normal;
+}
+h1 {
+	color: blue;
+	font-size: 200px
+	font-weight: normal;
+}
+ul {
+  	font-family: 'Comfortaa', Helvetica;
+  	color: #000;
+  	font-size: 14px;
+}
+hr {
+  	width: 200px;
+}
+p {
+  	font-size: 14px;
+}
+#slogan {
+	font-style: italic;
+	font-size: 16px;
+	color: #BD0B8C;
+	font-weight: bold;
+}
+#main-body {
+	color: #035754;
+}
+#browse{
+	font-size: 25px;
+}
