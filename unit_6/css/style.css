@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*	{
+	padding: 0;
+	margin: 0.5em;
+}
+
+nav {
+	display: inline block;
+	padding: 20px 20px;
+	color: #ffffff;
+}
+aside {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 10px;
+	max-width: 100%;
+}
+body { 
+  	text-align: center;
+  	color: #42E5AC;
+  	font-family: 'Avenir', Helvetica;
+}
+body
+h2, p {
+	font-family: 'Comfortaa', Helvetica;
+	color: #000;
+	font-size: 25px; 
+	font-weight: normal;
+}
+h1 {
+	color: blue;
+	font-size: 200px
+	font-weight: normal;
+}
+ul {
+  	font-family: 'Comfortaa', Helvetica;
+  	color: #000;
+  	font-size: 14px;
+}
+hr {
+  	width: 200px;
+}
+p {
+  	font-size: 14px;
+}
+.container {
+   	max-width: 100%;
+   	max-height: 100%;
+   	position: relative;
+   	background-image: url('../images/glass-ball-water.jpg');
+	height: 500px;
+	background-size: auto;
+	background-position: center;
+	padding: 0.1em;
+}
+.browse {
+   	position: absolute;
+   	font-weight: bold;
+   	font-size: 30px;
+   	color: #FFFFFF;
+   	text-align: center;
+   	padding: 1em;
+   	width: 100%;
+   	height: 1.5em;
+   	top: 50%;
+   	left: 0;
+}
+#slogan {
+	font-style: italic;
+	font-size: 16px;
+	color: #BD0B8C;
+	font-weight: bold;
+}
+#one {
+	float: center;
+}
+#two { 
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 20px;
+	max-width: 100%;
+}
+.column {
+	float: left;
+	position: relative;
+	width: 30%;
+	padding: 10px;
+	margin: 0.5em;
+}
+#main-body {
+	color: #035754;
+	width: 100%;
+}
+#two_column {
+	background-color: #FFB7CF; 
+	border: 1px black solid; 
+	padding: 10px;
+}
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 10px;
+	float: left;
+	width: 30%;
+}
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 10px;
+	float: right;
+	width: 60%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
