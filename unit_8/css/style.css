@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+*	{
+	padding: 0;
+	margin: 0.5em;
+}
+h1 {
+	position: relative;
+	color: blue;
+	font-size: 4em;
+	font-weight: normal;
+}
+nav {
+	margin: auto;
+	text-align: center; 
+	font-color: #ffffff;
+}
+nav a {
+ 	font-family: 'Comfortaa', Helvetica;
+	color: #000	;
+	padding: 25px;
+	font-size: .8em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+nav a:visited {
+	color: blue;
+}
+nav a:hover { 
+	color: green;
+}
+aside {
+	color: green;
+	padding: 20px;
+}
+footer {
+	background-image: url('../images/glass-ball-water.jpg');
+	border: 1px black solid;
+	width: auto;
+}
+body { 
+  	text-align: center;
+  	color: #000;
+  	font-family: 'Avenir', Helvetica;
+}
+body
+h2 {
+	font-family: 'Comfortaa', Helvetica;
+	color: #000;
+	font-size: 25px; 
+	font-weight: normal;
+}
+p {
+	font-family: 'Comfortaa', Helvetica;
+	color: #000;
+	font-size: 16px; 
+	font-weight: normal;
+}
+ul {
+  	font-family: 'Comfortaa', Helvetica;
+  	color: #000;
+  	font-size: 1em;
+}
+hr {
+  	width: 200px;
+}
+label{
+	font-family: 'Comfortaa', Helvetica;
+	color: #000;
+	padding: 0 10px 10px 10px;
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	display: none;
+}
+.container {
+   	max-width: 100%;
+   	max-height: 100%;
+   	position: relative;
+   	background-image: url('../images/glass-ball-water.jpg');
+	height: 500px;
+	background-size: auto;
+	background-position: center;
+	padding: 0.1em;
+}
+#browse {
+   	position: relative;
+   	font-weight: bold;
+   	font-size: 2em;
+   	color: #FFFFFF;
+   	text-align: center;
+   	width: 100%;
+   	top: 25%;
+   	left: auto;
+}
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+	color: #BBA1F8;
+	font-weight: bold;
+	padding: 2em 0 0 0;
+}
+#one {
+	float: center;
+}
+#overview { 
+	background-color: #FFF;
+	border: 1px black solid;
+	padding: 20px;
+	width: auto;
+}
+.column {
+	float: left;
+	position: relative;
+	width: 30%;
+	padding: 10px;
+	margin: 0.5em;
+}
+#main-body {
+	color: #035754;
+	width: 100%;
+}
+#two_column { 
+	padding: 1px;
+}
+#left {
+	padding: 5px;
+	float: left;
+	width: 30%;
+}
+#right {
+	padding: 5px;
+	float: right;
+	width: 60%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.details {
+	width: 29%;
+	border-style: 1 1 1 1;
+	border-color: black;
+	padding: 1%;
+	margin: 1%;
+	float: left;
+}
+#toggle{
+	display: none;
+}
+@media only screen and (max-width: 1150px) {
+	.clearfix {
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+}
+@media only screen and (max-width: 1070px) {
+	.details {
+		display: inline-block;
+		width: 100%;
+		float: none;
+		height: auto;
+		}
+	}
+@media only screen and (max-width: 875px) {
+	nav {
+		display: none;
+		text-align: center;
+	}
+	nav a:link{
+		display: block;
+		padding: 15px;
+		margin: 5px;
+	}
+	label {
+		display: block;
+		font-color: #000;
+	}
+	#toggle:checked + nav {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#left { 
+		display: inline-block;
+		width: 80%;
+		float: none;
+		height: auto;
+	 }
+	 #right { 
+		display: inline-block;
+		width: 80%;
+		float: none;
+		height: auto;
+	 }
+}
+
+
