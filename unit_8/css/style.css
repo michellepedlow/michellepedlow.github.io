@@ -92,11 +92,10 @@ label{
    	text-align: center;
    	width: 100%;
    	top: 25%;
-   	left: auto;
 }
 #slogan {
 	font-style: italic;
-	font-size: 20px;
+	font-size: 1.5em;
 	color: #BBA1F8;
 	font-weight: bold;
 	padding: 2em 0 0 0;
@@ -169,6 +168,9 @@ label{
 		}
 	}
 @media only screen and (max-width: 875px) {
+	h1 {
+	font-size: 3em;
+}
 	nav {
 		display: none;
 		text-align: center;
@@ -185,9 +187,17 @@ label{
 	#toggle:checked + nav {
 		display: block;
 	}
+	#slogan { 
+		font-size: 1.2em;
+	}
 }
-
 @media only screen and (max-width: 600px) {
+	#slogan { 
+		font-size: 1.1em;
+	 }
+	#browse {
+		font-size: 1.5em;
+	}
 	#left { 
 		display: inline-block;
 		width: 80%;
@@ -201,5 +211,3 @@ label{
 		height: auto;
 	 }
 }
-
-
