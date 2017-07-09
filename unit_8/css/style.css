@@ -80,7 +80,7 @@ label{
    	position: relative;
    	background-image: url('../images/glass-ball-water.jpg');
 	height: 500px;
-	background-size: auto;
+	background-size: cover;
 	background-position: center;
 	padding: 0.1em;
 }
@@ -96,7 +96,7 @@ label{
 #slogan {
 	font-style: italic;
 	font-size: 1.5em;
-	color: #BBA1F8;
+	color: black;
 	font-weight: bold;
 	padding: 2em 0 0 0;
 }
