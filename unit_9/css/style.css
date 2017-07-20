@@ -253,4 +253,7 @@ label{
 	div.hide {
 		display: none;
 	}
+	div.show {
+		display: inline-block;
+	}
 }
