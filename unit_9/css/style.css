@@ -201,8 +201,11 @@ a {
 		width: 100%;
 		float: none;
 		height: auto;
-		}
 	}
+	#browse {
+		bottom: -40%;
+	}
+}
 @media only screen and (max-width: 875px) {
 	h1 {
 	font-size: 3em;
