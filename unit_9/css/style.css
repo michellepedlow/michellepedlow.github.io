@@ -12,11 +12,11 @@ h1 {
 nav {
 	margin: auto;
 	text-align: center; 
-	font-color: #3DFF9E;
+	font-color: blue;
 }
 nav a {
  	font-family: 'Comfortaa', Helvetica;
-	color: #3DFF93;
+	color: blue;
 	padding: 25px;
 	font-size: .8em;
 	text-align: center;
