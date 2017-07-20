@@ -195,7 +195,7 @@ a {
 		height: auto;
 	}
 	#browse {
-		bottom: -30%;
+		bottom: -40%;
 	}
 }
 @media only screen and (max-width: 1070px) {
@@ -206,7 +206,7 @@ a {
 		height: auto;
 	}
 	#browse {
-		bottom: -30%;
+		bottom: -40%;
 	}
 }
 @media only screen and (max-width: 875px) {
@@ -237,7 +237,7 @@ a {
 	}
 	#browse {
 		font-size: 1.8em;
-		bottom: -30%;
+		bottom: -60%;
 	}
 }
 
@@ -250,7 +250,7 @@ a {
 	}
 	#browse {
 		font-size: 1.5em;
-		bottom: -30%;
+		bottom: -60%;
 	}
 	#left { 
 		display: inline-block;
