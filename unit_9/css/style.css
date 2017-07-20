@@ -12,11 +12,11 @@ h1 {
 nav {
 	margin: auto;
 	text-align: center; 
-	font-color: #ffffff;
+	font-color: #3DFF9E;
 }
 nav a {
  	font-family: 'Comfortaa', Helvetica;
-	color: #000	;
+	color: #3DFF93;
 	padding: 25px;
 	font-size: .8em;
 	text-align: center;
@@ -87,18 +87,25 @@ label{
 #browse {
    	position: relative;
    	font-weight: bold;
-   	font-size: 2em;
-   	color: #FFFFFF;
+   	font-size: 3em;
+   	color: #3DFF9E;
    	text-align: center;
    	width: 100%;
-   	top: 25%;
+   	top: 30%;
 }
-#slogan {
+#slogan1 {
 	font-style: italic;
-	font-size: 1.5em;
-	color: black;
+	font-size: 1.8em;
+	color: #3AF8FF;
 	font-weight: bold;
-	padding: 2em 0 0 0;
+	padding: 1.8em 0 0 0;
+}
+#slogan2 {
+	font-style: italic;
+	font-size: 1.8em;
+	color: #3AF8FF;
+	font-weight: bold;
+	padding: 1;
 }
 #one {
 	float: center;
@@ -210,12 +217,22 @@ label{
 	#toggle:checked + nav {
 		display: block;
 	}
-	#slogan { 
-		font-size: 1.2em;
+	#slogan1 { 
+		font-size: 1.4em;
+	}
+	#slogan2 { 
+		font-size: 1.4em;
+	}
+	#browse {
+		font-size: 1.8em;
 	}
 }
+
 @media only screen and (max-width: 600px) {
-	#slogan { 
+	#slogan1 { 
+		font-size: 1.1em;
+	}
+	#slogan2 { 
 		font-size: 1.1em;
 	}
 	#browse {
