@@ -12,7 +12,7 @@ h1 {
 nav {
 	margin: auto;
 	text-align: center; 
-	font-color: blue;
+	color: blue;
 }
 nav a {
  	font-family: 'Comfortaa', Helvetica;
@@ -74,6 +74,11 @@ label{
 	letter-spacing: 2px;
 	display: none;
 }
+a {
+    color: #3EFF9E;
+    cursor: auto;
+    text-decoration: underline;
+}
 .container {
    	max-width: 100%;
    	max-height: 100%;
@@ -91,7 +96,7 @@ label{
    	color: #3DFF9E;
    	text-align: center;
    	width: 100%;
-   	top: 30%;
+   	bottom: -50%;
 }
 #slogan1 {
 	font-style: italic;
@@ -109,6 +114,7 @@ label{
 }
 #one {
 	float: center;
+	color: #3DFF9E;
 }
 #overview { 
 	background-color: #FFF;
