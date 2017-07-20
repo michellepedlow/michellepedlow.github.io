@@ -237,6 +237,7 @@ a {
 	}
 	#browse {
 		font-size: 1.8em;
+		bottom: -30%;
 	}
 }
 
@@ -249,6 +250,7 @@ a {
 	}
 	#browse {
 		font-size: 1.5em;
+		bottom: -30%;
 	}
 	#left { 
 		display: inline-block;
