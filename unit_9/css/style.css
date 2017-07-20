@@ -194,6 +194,9 @@ a {
 		float: none;
 		height: auto;
 	}
+	#browse {
+		bottom: -30%;
+	}
 }
 @media only screen and (max-width: 1070px) {
 	.details {
